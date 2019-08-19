@@ -1,7 +1,6 @@
 class BotecoGem
-  
   def self.chamarGarcom
-
+  	return "#{greetings()} meu #{name()}"
   end
 
   def self.name
@@ -97,13 +96,57 @@ class BotecoGem
       "Democrata",
       "Bacharel",
       "Pós-moderno",
-      "Comtemporâneo"
+      "Comtemporâneo",
       "Diplomata",
       "Bolivariano",
       "Amigo Charlie Brown",
       "Iluminado",
       "Valoroso",
+      "Estruturalista",
+      "Camarada",
+      "Barroco",
+      "Artilheiro",
+      "Emancipado",
+      "Soturno",
+      "Eloquente",
+      "Soberbo",
+      "Vanguardista",
+      "Charmoso",
+      "Bigode",
+      "Grã-Fino",
+      "Ameríndio",
+      "Entrepeneur",
+      "Emissário",
+      "Generoso",
+      "Sambarilove",
+      "Guardião",
+      "Navegante",
+      "Famigerado",
+      "Camisa 10",
+      "Cosmopolita",
+      "Bona Fé",
+      "Dementador",
+      "Baluarte",
+      "Fidedigno",
+      "Estupendo",
+      "Mestre",
+      "Magnata",
+      "Nego Fera",
+      "Encantador",
+      "Ilustre",
+      "Protagonista",
+      "Eclesiasta",
+      "Chanceler",
+      "Bon Vivant",
+      "Chapa",
+      "Abençoado",
+      "Almirante",
+      "Coronel",
+      "Queridão",
+      "Legatário",
+      "Campeão"
     ].sample
+
   end
 
   def self.greetings
