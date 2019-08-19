@@ -1,8 +1,5 @@
 class BotecoGem
-  def self.chamarGarcom
-  	return "#{greetings()} meu #{name()}"
-  end
-
+  
   def self.name
     return [
       "Persuasivo",
@@ -11,7 +8,6 @@ class BotecoGem
       "Inadimplente",
       "Ilusionista",
       "Politeísta",
-      "Vigilante",
       "Tupã",
       "Quirografário",
       "Inquisidor",
@@ -27,7 +23,6 @@ class BotecoGem
       "Historiador",
       "Secular",
       "Comediante",
-      "Incorreto",
       "Cantochão",
       "Tórrido",
       "Promotor",
@@ -144,7 +139,8 @@ class BotecoGem
       "Coronel",
       "Queridão",
       "Legatário",
-      "Campeão"
+      "Campeão",
+      "Fera"
     ].sample
 
   end
@@ -155,33 +151,27 @@ class BotecoGem
       "Ei",
       "Psiu",
       "Ou",
-      "Fera",
       "Salve",
       "Alô",
       "Ô",
-      "And then you get an error message in your pretty face!",
-      "Dude writes Ruby on RAILS and draws a HIGHWAY.",
-      "It makes no sense what you're doing!",
-      "Can do, you can, you may, but I cannot understand why someone would do it.",
-      "Copy is the first step to creation.",
-      "There are no limits to the creativity of the human being.",
-      "Today is a great day to code.",
-      "The important thing about rules is knowing when to break them",
-      "It's life what gives you the real Reboot.",
-      "It doesn't make sense! He wants to exchange six for a half dozen!!",
-      "It only takes 15 minutes to learn scrum, lol",
-      "Life is too short to waste it coding in Java.",
-      "Open Source is the most efficient software ever"
+      "Fala"
     ].sample
   end
 
   def self.action
     return [
-      "Desce mais uma!",
-      "Trás a saidêrá!",
-      "Me vê o supra-sumo!"
+      "Desce mais uma",
+      "Trás a saidêrá",
+      "Me vê o supra-sumo",
+      "Solta a gelada",
+      "Trás um refil"
      ].sample
   end
+
+  def self.chamarGarcom
+  	return "#{greetings} meu #{name.downcase}! #{action}!"
+  end
+
 end
 
-p BotecoGem.name
+p BotecoGem.chamarGarcom
