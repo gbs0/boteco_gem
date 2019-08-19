@@ -2,6 +2,8 @@ class BotecoGem
   
   def self.name
     return [
+      "Bacana",
+      "Bacano",
       "Persuasivo",
       "Estrategista",
       "Delator",
@@ -140,7 +142,8 @@ class BotecoGem
       "Queridão",
       "Legatário",
       "Campeão",
-      "Fera"
+      "Fera",
+      "Xará"
     ].sample
 
   end
