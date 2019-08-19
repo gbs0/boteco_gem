@@ -1,5 +1,5 @@
 class BotecoGem
-  def self.quote
+  def self.name
     return [
       "Persuasivo",
       "Lutador de sumô não limpa a bunda sozinho.",
