@@ -172,7 +172,7 @@ class BotecoGem
   end
 
   def self.chamarGarcom
-  	return "#{greetings} meu #{name.downcase}! #{action}!"
+    return "#{greetings} meu #{name.downcase}! #{action}!"
   end
 
 end
