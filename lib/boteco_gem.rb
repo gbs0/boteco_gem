@@ -44,6 +44,7 @@ class BotecoGem
       "Chanceler",
       "Chapa",
       "Charmoso",
+      "Chefia",
       "Comandante",
       "Combatente",
       "Comediante",
