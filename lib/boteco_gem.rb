@@ -172,7 +172,8 @@ class BotecoGem
       "Me vê o supra-sumo",
       "Solta a gelada",
       "Traz um refil",
-      "Me dá uma benção!"
+      "Me dá uma benção!",
+      "Conceda sua graça"
      ].sample
   end
 
