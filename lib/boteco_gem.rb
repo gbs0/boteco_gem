@@ -173,7 +173,9 @@ class BotecoGem
       "Solta a gelada",
       "Traz um refil",
       "Me dá uma benção!",
-      "Conceda sua graça"
+      "Conceda sua graça",
+      "Manda aquela",
+      "Solta já trincando"
      ].sample
   end
 
