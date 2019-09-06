@@ -2,6 +2,7 @@ class BotecoGem
   
   def self.name
     return [
+      "Amigão",
       "Bacana",
       "Bacano",
       "Persuasivo",
@@ -12,7 +13,7 @@ class BotecoGem
       "Politeísta",
       "Tupã",
       "Quirografário",
-      "Inquisidor",
+      "Inquisitor",
       "Desbravador",
       "Influencer",
       "Litorâneo",
@@ -163,11 +164,13 @@ class BotecoGem
 
   def self.action
     return [
+      "Desce mais uma rodada!",
       "Desce mais uma",
-      "Trás a saidêrá",
+      "Traz a saidêrá",
       "Me vê o supra-sumo",
       "Solta a gelada",
-      "Trás um refil"
+      "Traz um refil",
+      "Me dá uma benção!"
      ].sample
   end
 
