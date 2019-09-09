@@ -145,7 +145,7 @@ class BotecoGem
       "Valoroso",
       "Vanguardista",
       "Xamã",
-      "Xará"
+      "Xará",
       "Zagueiro",
     ].sample
 
