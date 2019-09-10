@@ -1,9 +1,19 @@
-class BotecoGem
+require 'boteco/action'
+require 'boteco/greetings'
+require 'boteco/names'
 
+class Boteco
 
+  # Chamar garçom
+  def self.call
+    action = Action.new
+    greetings = Greetings.new
+    names = Names.new
+    return "#{greetings} meu #{name.downcase}! #{action}!"
+  end
 
   def self.chamarGarcom
-    return "#{greetings} meu #{name.downcase}! #{action}!"
+    
   end
 
   def self.drunk
@@ -12,4 +22,4 @@ class BotecoGem
 
 end
 
-p BotecoGem.drunk
+p Boteco.call
