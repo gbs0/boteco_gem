@@ -1,12 +1,12 @@
 require 'pry'
 
-binding.pry
+# binding.pry
 class Boteco
   # Chamar garçom
   def self.call
-    action = Action.new
-    greetings = Greetings.new
-    names = Names.new
+    action = Action.action
+    greetings = Greetings.greeting
+    names = Names.name
     return "#{greetings} meu #{name.downcase}! #{action}!"
   end
 

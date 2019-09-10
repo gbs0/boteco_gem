@@ -1,5 +1,5 @@
 class Boteco::Greetings
-  def self.greetings
+  def self.greeting
     return [
       "Opa",
       "Ei",

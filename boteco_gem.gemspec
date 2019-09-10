@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
  s.description = "Dificuldades em chamar um garçom? Chame o seu garçom favorito do jeito mais criativo!"
  s.authors     = ["Gabriel Schiavo"]
  s.email       = 'gabriel.smpenha@fco.net.br'
- s.files       = ["lib/boteco.rb", "lib/boteco/action.rb", "lib/boteco/greetings.rb", "lib/boteco/names.rb"]
+ s.files       = ["lib/boteco.rb", "lib/boteco/actions.rb", "lib/boteco/greetings.rb", "lib/boteco/names.rb"]
  s.homepage    = 'https://github.com/gbs0/boteco_gem'
  s.license     = 'MIT'
 end

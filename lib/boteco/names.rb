@@ -1,5 +1,5 @@
 class Boteco::Names
-  def self.name
+  def name
     return [
       "Abençoado",
       "Acionista",
