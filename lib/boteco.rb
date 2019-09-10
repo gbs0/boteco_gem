@@ -3,7 +3,6 @@ require 'boteco/greetings'
 require 'boteco/names'
 
 class Boteco
-
   # Chamar garçom
   def self.call
     action = Action.new
@@ -13,12 +12,12 @@ class Boteco
   end
 
   def self.chamarGarcom
-    
+   
   end
 
-  def self.drunk
-    return "(#{"#{greetings} meu #{name.downcase.reverse} hic! #{action.reverse} hic!"})"
-  end
+  # def self.drunk
+  #   return "(#{"#{greetings} meu #{name.downcase.reverse} hic! #{action.reverse} hic!"})"
+  # end
 
 end
 
