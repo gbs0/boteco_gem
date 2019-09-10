@@ -1,9 +1,5 @@
 class Boteco::Greetings
-  def initialize(language)
-    @language = language
-  end
-
-  def hi
+  def self.greetings
     case @language
     when "spanish"
       "hola mundo"
