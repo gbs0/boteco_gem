@@ -1,6 +1,3 @@
-require 'pry'
-
-# binding.pry
 class Boteco
   # Chamar garçom
   def self.call
@@ -22,6 +19,3 @@ end
 require_relative 'boteco/actions'
 require_relative 'boteco/greetings'
 require_relative 'boteco/names'
-
-
-p Boteco.drunk
