@@ -1,5 +1,5 @@
 class BotecoGem
-  
+ 
   def self.name
     return [
       "Abençoado",
@@ -148,7 +148,6 @@ class BotecoGem
       "Xará",
       "Zagueiro",
     ].sample
-
   end
 
   def self.action
