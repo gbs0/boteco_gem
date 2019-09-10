@@ -1,7 +1,9 @@
-require 'boteco/action'
-require 'boteco/greetings'
-require 'boteco/names'
+require 'pry'
+require_relative 'boteco/action'
+require_relative 'boteco/greetings'
+require_relative 'boteco/names'
 
+binding.pry
 class Boteco
   # Chamar garçom
   def self.call
