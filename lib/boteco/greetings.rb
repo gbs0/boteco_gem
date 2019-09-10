@@ -1,10 +1,14 @@
 class Boteco::Greetings
   def self.greetings
-    case @language
-    when "spanish"
-      "hola mundo"
-    else
-      "hello world"
-    end
+    return [
+      "Opa",
+      "Ei",
+      "Psiu",
+      "Ou",
+      "Salve",
+      "Alô",
+      "Ô",
+      "Fala"
+    ].sample
   end
 end

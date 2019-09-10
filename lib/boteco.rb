@@ -151,19 +151,6 @@ class BotecoGem
 
   end
 
-  def self.greetings
-    return [
-      "Opa",
-      "Ei",
-      "Psiu",
-      "Ou",
-      "Salve",
-      "Alô",
-      "Ô",
-      "Fala"
-    ].sample
-  end
-
   def self.action
     return [
       "Desce mais uma rodada!",
