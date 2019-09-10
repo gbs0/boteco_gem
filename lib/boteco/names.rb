@@ -124,6 +124,7 @@ class Boteco::Names
       "Protagonista",
       "Queridão",
       "Quirografário",
+      "Renacentista",
       "Resplandecente",
       "Reverendo",
       "Roshan",

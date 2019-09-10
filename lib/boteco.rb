@@ -10,13 +10,12 @@ class Boteco
     return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
-  def self.chamarGarcom
-   
+  def self.drunk
+    action = Actions.action
+    greetings = Greetings.greeting
+    names = Names.name
+    return "#{"#{greetings} meu #{names.downcase.reverse} hic! #{action.downcase.reverse} hic!"}"
   end
-
-  # def self.drunk
-  #   return "(#{"#{greetings} meu #{name.downcase.reverse} hic! #{action.reverse} hic!"})"
-  # end
 
 end
 
@@ -25,4 +24,4 @@ require_relative 'boteco/greetings'
 require_relative 'boteco/names'
 
 
-p Boteco.call
+p Boteco.drunk
