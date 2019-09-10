@@ -1,4 +1,4 @@
-class Boteco::Action
+class Boteco::Actions
   def self.action
     return [
       "Desce mais uma rodada!",
