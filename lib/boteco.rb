@@ -4,10 +4,10 @@ require 'pry'
 class Boteco
   # Chamar garçom
   def self.call
-    action = Action.action
+    action = Actions.action
     greetings = Greetings.greeting
     names = Names.name
-    return "#{greetings} meu #{name.downcase}! #{action}!"
+    return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
   def self.chamarGarcom
@@ -20,7 +20,7 @@ class Boteco
 
 end
 
-require_relative 'boteco/action'
+require_relative 'boteco/actions'
 require_relative 'boteco/greetings'
 require_relative 'boteco/names'
 
