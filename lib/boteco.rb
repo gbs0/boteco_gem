@@ -1,7 +1,4 @@
 require 'pry'
-require_relative 'boteco/action'
-require_relative 'boteco/greetings'
-require_relative 'boteco/names'
 
 binding.pry
 class Boteco
@@ -22,5 +19,10 @@ class Boteco
   # end
 
 end
+
+require_relative 'boteco/action'
+require_relative 'boteco/greetings'
+require_relative 'boteco/names'
+
 
 p Boteco.call
