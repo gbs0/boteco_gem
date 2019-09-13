@@ -16,6 +16,6 @@ class Boteco
 
 end
 
-require_relative 'boteco/actions'
-require_relative 'boteco/greetings'
-require_relative 'boteco/names'
+require_relative 'lib/boteco/actions'
+require_relative 'lib/boteco/greetings'
+require_relative 'lib/boteco/names'
