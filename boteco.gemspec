@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
- s.name        = 'boteco_gem'
+ s.name        = 'boteco'
  s.version     = '0.0.0'
  s.date        = '2019-08-19'
  s.summary     = ""
