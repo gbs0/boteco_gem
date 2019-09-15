@@ -1,13 +1,13 @@
 class Boteco
   # Chamar garçom
-  def call
+  def self.call
     action = Actions.action
     greetings = Greetings.greeting
     names = Names.name
     return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
-  def drunk
+  def self.drunk
     action = Actions.action
     greetings = Greetings.greeting
     names = Names.name
