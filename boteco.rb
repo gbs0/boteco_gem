@@ -7,7 +7,7 @@ class Boteco
     return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
-  def self. drunk
+  def self.drunk
     action = Actions.action
     greetings = Greetings.greeting
     names = Names.name
