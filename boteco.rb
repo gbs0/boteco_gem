@@ -1,3 +1,7 @@
+require_relative 'lib/boteco/actions'
+require_relative 'lib/boteco/greetings'
+require_relative 'lib/boteco/names'
+
 class Boteco
   # Chamar garçom
   def self.call
@@ -15,6 +19,3 @@ class Boteco
   end
 end
 
-require_relative 'lib/boteco/actions'
-require_relative 'lib/boteco/greetings'
-require_relative 'lib/boteco/names'
