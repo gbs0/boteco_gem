@@ -5,13 +5,13 @@ require 'pry'
 # require_relative 'lib/boteco/names'
 
 class Boteco
-  INFO = YAML.load_file(File.join(__dir__, 'data.yml'))
-  binding.pry
+  INFO = YAML.load_file(File.join(__dir__, 'lib/data.yml'))
+  
   # Chamar garçom
   def self.chamar
-    action = INFO['pt']['actions']
-    greetings = INFO['pt']['greetings']
-    names = INFO['pt']['names']
+    action = INFO['pt']['actions'].sample
+    greetings = INFO['pt']['greetings'].sample
+    names = INFO['pt']['names'].sample
     return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
