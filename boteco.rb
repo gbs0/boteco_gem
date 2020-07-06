@@ -19,7 +19,7 @@ class Boteco
     greeting = INFO['pt']['greetings'].sample
     action = INFO['pt']['actions'].sample
     name = INFO['pt']['names'].sample
-    return "#{"#{greetings} meu #{names.downcase.reverse} hic! #{action.downcase.reverse} hic!"}"
+    return "#{"#{greeting} meu #{name.downcase.reverse} hic! #{action.downcase} hic!"}"
   end
 end
 
