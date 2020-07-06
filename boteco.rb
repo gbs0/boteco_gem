@@ -15,11 +15,11 @@ class Boteco
     return "#{greetings} meu #{names.downcase}! #{action}!"
   end
 
-  # def self.bebado
-  #   action = Actions.action
-  #   greetings = Greetings.greeting
-  #   names = Names.name
-  #   return "#{"#{greetings} meu #{names.downcase.reverse} hic! #{action.downcase.reverse} hic!"}"
-  # end
+  def self.bebado
+    action = Actions.action
+    greetings = Greetings.greeting
+    names = Names.name
+    return "#{"#{greetings} meu #{names.downcase.reverse} hic! #{action.downcase.reverse} hic!"}"
+  end
 end
 
