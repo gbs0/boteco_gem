@@ -10,15 +10,15 @@ class Boteco
   # Chamar garçom
   def self.chamar
     action = INFO['pt']['actions']
-    greetings = INFO['pt']['greetings']
-    names = INFO['pt']['names']
-    return "#{greetings} meu #{names.downcase}! #{action}!"
+    greeting = INFO['pt']['greetings']
+    name = INFO['pt']['names']
+    return "#{greeting} meu #{name.downcase}! #{action}!"
   end
 
   def self.bebado
-    action = Actions.action
-    greetings = Greetings.greeting
-    names = Names.name
+    action = INFO['pt']['actions']
+    greeting = INFO['pt']['greetings']
+    name = INFO['pt']['names']
     return "#{"#{greetings} meu #{names.downcase.reverse} hic! #{action.downcase.reverse} hic!"}"
   end
 end
